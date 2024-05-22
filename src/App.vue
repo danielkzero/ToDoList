@@ -29,17 +29,7 @@ export default {
     return {
       nomeTarefa: '',
       titulo: 'Lista de tarefas',
-      listaTarefa: [
-        {
-          tarefa: 'fazer uma caminha às 05:00'
-        },
-        {
-          tarefa: 'almoçar ao 12:00'
-        },
-        {
-          tarefa: 'ir pra casa 16:30'
-        }
-      ]
+      listaTarefa: []
     }
   },
   methods: {
