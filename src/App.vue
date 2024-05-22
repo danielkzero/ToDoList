@@ -50,6 +50,9 @@ export default {
     }
   },
   mounted(){
+    if (!localStorage.getItem("listaTarefa")) {
+      localStorage.setItem("listaTarefa",JSON.stringify(this.listaTarefa));
+    }
     this.listaTarefa = JSON.parse(localStorage.getItem("listaTarefa"));
   }
 }
